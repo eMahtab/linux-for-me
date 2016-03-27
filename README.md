@@ -72,7 +72,9 @@ Linux Cheatsheet
     ```
     **Note that above command will give the result one greater than the actual number of files**
     
-14. # Vi Editor Cheatsheet
+
+ # Vi Editor Cheatsheet
+ 
     **Opening a file in vi editor**
     
     ```
@@ -88,14 +90,20 @@ Linux Cheatsheet
     ```
     :wq
     ```
+    
     **Switching from command mode to insert modes**
+    ```
     To switch from command mode to insert mode use 'i'. To switch from insert mode to command mode use 'esc' key
+    ```
     
     **Editing a file**
-    
+    ```
     To edit a file in vi ceditor first switch to insertion mode ( by pressing esc and then i), once you are in insertion mode
     you can edit the file
+    ```
     
-    **Deleting a single character**
-    To delete a single character use 'x' in command mode 
+    **Deleting characters**
+    ```
+    To delete a single character use 'x' in command mode and to delete a complete line use 'dd' in command mode  
+    ```
     
