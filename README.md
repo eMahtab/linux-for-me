@@ -73,7 +73,8 @@ Linux Cheatsheet
     **Note that above command will give the result one greater than the actual number of files**
     
 
- # Vi Editor Cheatsheet
+
+# Vi Editor Cheatsheet
  
     **Opening a file in vi editor**
     
@@ -107,3 +108,7 @@ Linux Cheatsheet
     To delete a single character use 'x' in command mode and to delete a complete line use 'dd' in command mode  
     ```
     
+    **Moving in lines up and down, right and left**
+    ```
+    To move between lines up and down use arrow keys in command mode. To move left and right use left and right arror keys in command     mode 
+    ```
