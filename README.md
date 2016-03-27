@@ -89,6 +89,7 @@ Linux Cheatsheet
     :wq
     ```
     **Editing a file**
+    
     To edit a file in vi editor first switch to insertion mode ( by pressing esc and then i), once you are in insertion mode
     you can edit the file
     
