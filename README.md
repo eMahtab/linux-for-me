@@ -55,3 +55,19 @@ Linux Cheatsheet
      ```
      rm -r ~/codes/*
      ```
+11. Renaming a file (e.g. ~/codes/alpha.txt to ~/codes/awesome.txt)
+
+    ```
+    mv ~/codes/alpha.txt ~/codes/awesome.txt
+    ```
+12. Renaming a folder (e.g. ~/codes to ~/sourceCodes)
+    
+    ```
+    mv ~/codes ~/sourceCodes
+    ```
+13. Counting the number of files in a directory 
+    
+    ```
+    ls -l | wc -l
+    ```
+    **Note that above command will give the result one greater than the actual number of files**
