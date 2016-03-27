@@ -71,3 +71,26 @@ Linux Cheatsheet
     ls -l | wc -l
     ```
     **Note that above command will give the result one greater than the actual number of files**
+    
+14. # Vi Editor Cheatsheet
+    **Opening a file in vi editor**
+    
+    ```
+    vi nameOfTheFile
+    ```
+    **Closing an open file and Quiting the vi editor**
+    
+    ```
+    :q
+    ```
+    **Saving and closing a file and quitting the editor**
+    
+    ```
+    :wq
+    ```
+    **Editing a file**
+    To edit a file in vi editor first switch to insertion mode ( by pressing esc and then i), once you are in insertion mode
+    you can edit the file
+    
+    
+    
