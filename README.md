@@ -74,7 +74,7 @@ Linux Cheatsheet
     
 
 
-# Vi Editor Cheatsheet
+   # Vi Editor Cheatsheet
  
     **Opening a file in vi editor**
     
