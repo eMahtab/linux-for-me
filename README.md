@@ -130,5 +130,15 @@ Linux Cheatsheet
    ```
    grep -ni cghr someText.txt
    ```
+  ** Seraching for a string with multiple words**
+  
+  ```
+  grep -ni "quote is must" grep101/someText.txt
+  ```
+  
+  **Searching in multiple files**
+  ```
+  grep -in grunt grep101/someText.txt grep101/otherText.txt
+  ```
   
   
