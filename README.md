@@ -142,4 +142,8 @@ Linux Cheatsheet
   grep -in grunt grep101/someText.txt grep101/otherText.txt
   ```
   
+  **Searching for a pattern recursively in all the files under a directory**
   
+  ```
+  grep -inr grunt grep101
+  ```
