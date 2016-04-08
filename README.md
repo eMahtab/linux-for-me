@@ -130,6 +130,7 @@ Linux Cheatsheet
    ```
    grep -ni cghr someText.txt
    ```
+   
   ** Seraching for a string with multiple words**
   
   ```
