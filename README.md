@@ -112,3 +112,23 @@ Linux Cheatsheet
     ```
     To move between lines up and down use arrow keys in command mode. To move left and right use left and right arror keys in command     mode 
     ```
+
+  #Grep Command
+  1. Searching for a string in a file
+  
+   ```
+   grep CGHR someText.txt
+   ```
+  2. Case Insensitive Search with Grep
+   
+   ```
+   grep -i cghr someText.txt
+   ```
+   
+  3. Printing the line numbers in the output result
+  
+   ```
+   grep -ni cghr someText.txt
+   ```
+  
+  
