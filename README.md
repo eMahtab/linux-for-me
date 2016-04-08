@@ -72,7 +72,11 @@ Linux Cheatsheet
     ```
     **Note that above command will give the result one greater than the actual number of files**
     
-
+14. Clearing the terminal screen
+ 
+     ```
+     clear
+     ```
 
    # Vi Editor Cheatsheet
  
