@@ -114,7 +114,7 @@ Linux Cheatsheet
     
     **Moving in lines up and down, right and left**
     ```
-    To move between lines up and down use arrow keys in command mode. To move left and right use left and right arror keys in command     mode 
+    To move between lines up and down use arrow keys in command mode. To move left and right use left and right arror keys in command mode 
     ```
 
   #Grep Command
@@ -151,3 +151,10 @@ Linux Cheatsheet
   ```
   grep -inr grunt grep101
   ```
+ 
+ #find command
+ 
+ find command is used for searching for files 
+ 
+ 
+  
