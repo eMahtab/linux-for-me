@@ -161,6 +161,6 @@ Linux Cheatsheet
  ```
  find -name cme-esb.xml
  ```
- 
+ By default find will look for file under current directory and sub-directories
  
   
