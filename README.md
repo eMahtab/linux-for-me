@@ -156,5 +156,11 @@ Linux Cheatsheet
  
  find command is used for searching for files 
  
+ **Searching for specific file**
+ 
+ ```
+ find -name cme-esb.xml
+ ```
+ 
  
   
