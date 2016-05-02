@@ -171,3 +171,24 @@ Linux Cheatsheet
  ```
  cat /etc/*-release
  ```
+ # scp (secure copy) 
+ To copy a directory from your local machine to remote server's /var/www/html/ directory
+ 
+ ```
+ scp -r mansa2 mahtab@net.mahtabalam:/var/www/html/
+ ```
+ #chown (changing ownership)
+ To change owner and group owner to root for all the files and sub directoies within a directory use below command
+ ```
+ sudo chown -R root:root mansa2
+ ```
+ #chmod (changing permissions)
+ To change permissions for a folder
+ ```
+ sudo chmod 755 mansa2
+ ```
+ To change permission for all the files under a directory 
+ ```
+ sudo chmod 644 mansa2/*
+ ```
+ Note that above command will not change file permissions for sub directories and files inside sub directories
