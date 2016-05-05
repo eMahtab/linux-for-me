@@ -177,6 +177,10 @@ Linux Cheatsheet
  ```
  scp -r mansa2 mahtab@net.mahtabalam:/var/www/html/
  ```
+ To copy a file from remote server to your local machine
+ ```
+ scp mahtab@net.mahtabalam:/var/www/data/abc.wav /homr.mahtab/recordings/
+ ```
  #chown (changing ownership)
  To change owner and group owner to root for all the files and sub directoies within a directory use below command
  ```
