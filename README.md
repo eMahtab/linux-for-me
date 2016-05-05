@@ -179,7 +179,7 @@ Linux Cheatsheet
  ```
  To copy a file from remote server to your local machine
  ```
- scp mahtab@net.mahtabalam:/var/www/data/abc.wav /homr.mahtab/recordings/
+ scp mahtab@net.mahtabalam:/var/www/data/abc.wav /home/mahtab/recordings/
  ```
  #chown (changing ownership)
  To change owner and group owner to root for all the files and sub directoies within a directory use below command
