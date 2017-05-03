@@ -7,7 +7,7 @@ Linux Cheatsheet
    
    ```
 
-2. Creating a new file/ editing an existing file (using gedit editor)
+2. Creating a new file or editing an existing file (using gedit editor)
    ```
    gedit index.html
    ```
@@ -33,6 +33,8 @@ Linux Cheatsheet
 6. Copying a directory (/home/bourne/work) to another directory (/home/bourne/Videos)
    ```
    cp -R /home/bourne/work /home/bourne/Videos/
+   or
+   cp -r /home/bourne/work /home/bourne/Videos/
    ```
    
 7. Removing a file (e.g. /home/bourne/Videos/work/info.txt)
@@ -44,7 +46,7 @@ Linux Cheatsheet
    ```
    rm -r ~/Videos/work
    ```
-9. Removing all the files in a directory (e.g. ~/codes/)
+9. Removing all the files in a directory (e.g. ~/codes/) 
   ```
   rm ~/codes/*
   ```
