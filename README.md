@@ -200,3 +200,8 @@ Linux Cheatsheet
  sudo chmod 644 mansa2/*
  ```
  Note that above command will not change file permissions for sub directories and files inside sub directories
+ 
+ # Zipping a directory
+  ```
+   zip name-of-the-zip-to-be-created.zip dir
+  ```
