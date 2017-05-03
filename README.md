@@ -203,5 +203,11 @@ Linux Cheatsheet
  
  # Zipping a directory
   ```
-   zip name-of-the-zip-to-be-created.zip dir
+   zip -r name-of-the-zip-to-be-created.zip dir
   ```
+  
+ # Zipping a single file
+ ```
+   zip name-of-the-zip-to-be-created.zip file
+ ```
+   
