@@ -165,10 +165,10 @@ Linux Cheatsheet
  ```
  By default find will look for file under current directory and sub-directories
  
- #Opening a terminal
+ **Shortcut for opening a terminal**
  If you are on a Ubuntu machine you can open a new terminal by pressing the keys Ctrl+Alt+t but this shortcut does not work in Debian so you have to set this shortcut manually to open the terminal using Ctrl+Alt+t
  
- #To find out what version of Linux (distro) you are running
+ **To find out what version of Linux (distro) you are running**
  You can use the below command to find out which version of linux you are running
  ```
  cat /etc/*-release
