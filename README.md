@@ -211,3 +211,17 @@ Linux Cheatsheet
    zip name-of-the-zip-to-be-created.zip file
  ```
    
+# Using tar to compress a dir into a .tgz file
+
+```
+ tar -czf compressed-file-name.tgz dir
+```
+# Using tar to list files inside .tgz file
+
+```
+ tar -tzf compressed-file-name.tgz
+```
+# Using tar to uncompress a .tgz file
+ ```
+ tar -xzf compressed-file-name.tgz
+ ```
