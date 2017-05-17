@@ -119,7 +119,8 @@ Linux Cheatsheet
     To move between lines up and down use arrow keys in command mode. To move left and right use left and right arror keys in command mode 
     ```
 
-  #Grep Command
+   # Grep Command
+  
   **Searching for a string in a file**
   
    ```
