@@ -212,8 +212,7 @@ Linux Cheatsheet
   ```
   grep -nriE "chaaye|chai" .
   
-  or 
-
+  
   grep -nriE "chaaye|chai|mahtab" .
   ```
   
@@ -223,8 +222,7 @@ Linux Cheatsheet
   ```
   grep -rn "^I" .
 
-  or
-  
+    
   grep -rni "bangalore$" .
   ```
   
@@ -248,6 +246,16 @@ Linux Cheatsheet
  or
 
  find views/ -name "*ejs" | grep -E "/([a-z]*)-([a-z]*)-([a-z]*)\.ejs"
+  ```
+  
+  ** Inverting a  grep search**
+  We can invert the grep search with -v option, so grep will list what that doesn't match rather than what does match
+  
+  ```
+  ls -l | grep -v "node_modules"
+  
+  find views/ -name "*.ejs" | grep -v "blog"
+  
   ```
  
  # Find command
