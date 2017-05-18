@@ -167,15 +167,31 @@ Linux Cheatsheet
   ```
   
   **Git grep**
+  
   If you are working with a gir repository then git grep ignores all the files and directories defined in .gitignore file
   ```
   git grep mahtab .
   ```
   
   **Getting context around grep matches**
+  
   A = after, B = before, C = both after and before
   ```
   grep --color -rn -C 2 mahtab .
+  ```
+  
+  **Using special characters . and * with grep**
+  
+  . means any character and * means zero or more occurances
+  ```
+  grep --color -rn "(http.*)" .
+  ```
+  
+  **grep escaping the special characters**
+  
+  If you want special characters to be treated as normal characters you can escape it with \
+  ```
+  grep -nr "www\." . .
   ```
  
  # Find command
