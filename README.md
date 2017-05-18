@@ -159,6 +159,24 @@ Linux Cheatsheet
   ```
   grep -inr grunt grep101
   ```
+  
+  **Coloring the matched string**
+  
+  ```
+  grep -r --color mahtab .
+  ```
+  
+  **Git grep**
+  If you are working with a gir repository then git grep ignores all the files and directories defined in .gitignore file
+  ```
+  git grep mahtab .
+  ```
+  
+  **Getting context around grep matches**
+  A = after, B = before, C = both after and before
+  ```
+  grep --color -rn -C 2 mahtab .
+  ```
  
  # Find command
  
