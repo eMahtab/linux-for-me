@@ -193,6 +193,18 @@ Linux Cheatsheet
   ```
   grep -nr "www\." . .
   ```
+  
+  **grep extended reguluar expressions**
+  
+  by default grep treats . and * as special characters, grep also supports extended regular expressions 
+  +(one or more) and ?(zero or one) symbols. To use it either you can use the -E option with grep or escape these             characters with backslash(\) to be treated as special characters
+  ```
+  grep -nr -E "https?" .
+  
+  or
+  
+  grep -nr "https\?" .
+  ```
  
  # Find command
  
