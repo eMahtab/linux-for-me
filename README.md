@@ -230,13 +230,24 @@ Linux Cheatsheet
   
   **grep using bracket expressions and character classes**
   
-  We can bracket expressions [a-z], [A-Z], [0-9] and also character classes [:alpha:], [:digit:], [:alnum:] with grep
+  We can bracket expressions [a-z], [A-Z], [0-9] and also character classes [:alpha:], [:digit:], [:alnum:], [:xdigit:] with   grep
   ```
   find views/ -name "*ejs" | grep "[0-9]"
 
   or
   
   find views/ -name "*ejs" | grep "[[:digit:]]"
+  ```
+  
+  **grep grouping our search string with parantheses**
+  
+  We can group our search patterns to create a precise search pattern that we want to search, note that while using parantheses you will also have to use -E option. Both of below queries will give same result
+  ```
+ find views/ -name "*ejs" | grep "/[a-z]*-[a-z]*-[a-z]*\.ejs"
+
+ or
+
+ find views/ -name "*ejs" | grep -E "/([a-z]*)-([a-z]*)-([a-z]*)\.ejs"
   ```
  
  # Find command
