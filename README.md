@@ -249,6 +249,7 @@ Linux Cheatsheet
   ```
   
   **Inverting a  grep search**
+  
   We can invert the grep search with -v option, so grep will list what that doesn't match rather than what does match
   
   ```
