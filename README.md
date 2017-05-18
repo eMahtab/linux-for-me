@@ -177,6 +177,16 @@ Linux Cheatsheet
  find views -name "*ejs"
  ```
  
+ **Combining find and grep together with xargs**
+ 
+ ```
+ find views/ -name "*ejs" | xargs grep -in "bangalore"
+ ```
+ 
+ 
+ 
+ 
+ 
  **Shortcut for opening a terminal**
  
  If you are on a Ubuntu machine you can open a new terminal by pressing the keys Ctrl+Alt+t but this shortcut does not work in Debian so you have to set this shortcut manually to open the terminal using Ctrl+Alt+t
