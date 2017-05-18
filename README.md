@@ -205,6 +205,28 @@ Linux Cheatsheet
   
   grep -nr "https\?" .
   ```
+  
+  **grep looking for multiple patterns using or expression (|)**
+  
+  We can specify multiple patterns using to look for using |, note that using -E option is mandatory to use |
+  ```
+  grep -nriE "chaaye|chai" .
+  
+  or 
+
+  grep -nriE "chaaye|chai|mahtab" .
+  ```
+  
+  **grep matching only at line begining(^) or at end($) using anchor characters**
+  
+  ^ will match the pattern only if it is at the begining of line, similarly $ will only match the pattern if it is at the     end of the line
+  ```
+  grep -rn "^I" .
+
+  or
+  
+  grep -rni "bangalore$" .
+  ```
  
  # Find command
  
