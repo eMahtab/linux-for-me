@@ -155,7 +155,7 @@ Linux Cheatsheet
   grep -inr grunt grep101
   ```
  
- #find command
+ # Find command
  
  find command is used for searching for files 
  
@@ -165,6 +165,12 @@ Linux Cheatsheet
  find -name cme-esb.xml
  ```
  By default find will look for file under current directory and sub-directories
+ 
+ **Searching inside a particular dircectory**
+ 
+ ```
+ find views -name "*ejs"
+ ```
  
  **Shortcut for opening a terminal**
  
