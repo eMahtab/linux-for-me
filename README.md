@@ -227,6 +227,17 @@ Linux Cheatsheet
   
   grep -rni "bangalore$" .
   ```
+  
+  **grep using bracket expressions and character classes**
+  
+  We can bracket expressions [a-z], [A-Z], [0-9] and also character classes [:alpha:], [:digit:], [:alnum:] with grep
+  ```
+  find views/ -name "*ejs" | grep "[0-9]"
+
+  or
+  
+  find views/ -name "*ejs" | grep "[[:digit:]]"
+  ```
  
  # Find command
  
