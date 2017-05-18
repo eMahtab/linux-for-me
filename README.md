@@ -6,6 +6,11 @@ Linux Cheatsheet
    mkdir work
    
    ```
+   Above command will give error if work directory already exist. If we use the p option with mkdir it will not give error      even if the directory already exist
+   ```
+   mkdir -p work
+   
+   ```
 
 2. Creating a new file or editing an existing file (using gedit editor)
    ```
@@ -166,7 +171,7 @@ Linux Cheatsheet
  ```
  By default find will look for file under current directory and sub-directories
  
- **Searching inside a particular dircectory**
+ **Searching all ejs files inside views directory**
  
  ```
  find views -name "*ejs"
