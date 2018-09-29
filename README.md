@@ -346,3 +346,6 @@ Linux Cheatsheet
  ```
  tar -xzf compressed-file-name.tgz
  ```
+
+# Command Substitution
+https://docs.google.com/document/d/1ciIjphq_icU9iqpYdF6CW2Yf9HDyF7IHmzZUrP6mZ90/edit?usp=sharing
